@@ -1,0 +1,14 @@
+.imagemlogo {
+  width: 100px;
+  height: 100px;
+}
+.socialicones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.socialicones svg{
+    margin-left: 5%;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import {Navbar, Nav} from 'react-bootstrap';
-import Logo from '../imagens/Suddath.webp'
+import Logo from '../imagens/Suddath.jpg'
 import "./navbar.css"
 import {Row, Col, Container} from 'react-bootstrap';
 
