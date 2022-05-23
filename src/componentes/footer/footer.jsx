@@ -17,10 +17,11 @@ function Footer() {
               <img className="imagemlogo" src={Logo} alt="..."/>
             </div>
           </Col>
-          <Col lg={4} className="socialicones">
-              <EmailIcon className="ml-4"></EmailIcon>
-              <Linkedinicone className="ml-4"></Linkedinicone>
-              <Instaicone className="ml-4"></Instaicone>
+          <Col lg={4}>
+               <a href="mailto: patrikybrito@gmail.com" className="marginl">  <EmailIcon/>
+             </a>
+              <a href="https://www.linkedin.com/in/patriky-brito/" className="marginl"> <Linkedinicone/> </a>
+              <a href="https://www.instagram.com/patrikybrito/" className="marginl"> <Instaicone/> </a>
           </Col>
         </Row>
         <Row>

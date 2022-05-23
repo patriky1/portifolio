@@ -8,7 +8,7 @@ import Footer from './componentes/footer/footer';
 
 function App() {
   return (
-    <>
+    <div className='colorbackground'>
     <section id="top">
     <Menu />
     <Grid1/>
@@ -17,7 +17,7 @@ function App() {
     </section>
 
 
-    </>
+    </div>
   );
 }
 
