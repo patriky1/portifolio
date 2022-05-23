@@ -1,17 +1,50 @@
-.Logoimage {
+.logoimage {
+  
   width: 50px;
   height: auto;
 }
 .logocontainer {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.me-auto :hover{
+  border-bottom: 2px solid rgb(255, 0, 0) !important;
+  transition-duration: 1s;
+}
+
+.size{
+  width: 200px;
+  height: auto;
+}
+
+.bgcolorintem{
+  background-color: white;
+}
+.itens{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+.item{
+  padding: 2%;
+  text-decoration: none;
+  color: black;
+}
+
+
+.item:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+@media screen and (max-width: 680px) {
+.itens{ 
+  display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
 }
-/* .navbar {
-  background-color: transparent !important;
-} */
-.me-auto :hover{
-  border-bottom: 2px solid black !important;
-  transition-duration: 1s;
 }
