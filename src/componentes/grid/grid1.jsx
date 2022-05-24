@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Imggrid from "./imagem_grid/perfil.png";
 import Imggrid1 from "./imagem_grid/Frame.png";
-import Imggrid2 from "./imagem_grid/frame2.png";
+// import Imggrid2 from "./imagem_grid/frame2.png";
 import "./grid.css";
 import Carrossel from "../carrossel/carrossel";
 
@@ -19,8 +19,13 @@ export function GridPerfil() {
               I’m <span className="textoamarelo">Patriky</span>
             </h2>
             <p className="textobranco">
-              Front End Developer who focuses on writing clean, elegant and
-              efficient code.
+              Front End Developer who focuses <br></br>on writing clean, elegant
+              and efficient code.<br></br>
+            </p>
+            <p className="textobranco mt-5">
+              My market experience combined with my professional networking <br></br>can
+              help you solve your problems in the digital environment,<br></br> whatever
+              your demand
             </p>
           </Col>
         </Row>
@@ -34,11 +39,8 @@ export function GridCarousel() {
     <>
       <Container fluid className="mt-5 ">
         <Row className="margens">
-          <h2 className="textstyle"> My Projects</h2>
-          <Col lg={6}>
-            <img className="imagemgrid2" src={Imggrid2} alt="..." />
-          </Col>
-          <Col lg={6} className="centralized mt-5">
+          <h2 className="textstyle sizebox2"> My Projects</h2>
+          <Col className="centralized mt-5">
             <Carrossel />
           </Col>
         </Row>

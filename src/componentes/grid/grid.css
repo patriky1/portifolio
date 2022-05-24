@@ -187,9 +187,17 @@
   width: 120px;
 }
 
+.sizebox2 {
+  width: 300px;
+}
+
 .centralized{
   display: block;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+ 
+  box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.1);
+  
 }
