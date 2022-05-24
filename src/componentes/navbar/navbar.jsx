@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav, NavbarBrand } from "react-bootstrap";
-import Logo from "../imagens/Suddath.jpg";
+import Logo from "../imagens/Suddath.png";
 import "./navbar.css";
 import { Row, Col, Container } from "react-bootstrap";
 
@@ -27,13 +27,13 @@ function Menu() {
           </Col> */}
 
 
-          <Col className="itens" lg={6} ><a className="item" href="#portfolio">Portifolio</a>
+          <Col className="itens" lg={5} ><a className="item" href="#portfolio">Portifolio</a>
           <a className="item" href="#home">Home</a>
           <a className="item" href="#contato">Contato</a>
  
           </Col>
-          <Col  lg={6}>
-          <div className="logocontainer"><img className="logoimage" src={Logo} alt="logo" /></div>
+          <Col  lg={7} className="p-0 logocontainer mobileresize">
+         <img className="logoimage" src={Logo} alt="logo" />
           </Col>
         </Row>
       </Container>

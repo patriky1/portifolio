@@ -1,69 +1,136 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Imggrid from "./imagem_grid/imgGrid.png";
-import Imggrid1 from "./imagem_grid/dog.jpg";
+import Imggrid from "./imagem_grid/perfil.png";
+import Imggrid1 from "./imagem_grid/Frame.png";
+import Imggrid2 from "./imagem_grid/frame2.png";
 import "./grid.css";
+import Carrossel from "../carrossel/carrossel";
 
 function Grid1() {
   return (
     <>
-      <Container fluid className="mt-5">
-        <Row>
-          <Col>
-          <h1>
-            Patriky Lucena de Brito
-          </h1>
-          </Col>
-        </Row>
-        <Row>
-          <Col lg={6} >
+      <Container fluid className="mt-5 ">
+        <Row className="margens">
+          <Col lg={6} className="grid" >
             <img className="imagemgrid" src={Imggrid} alt="..." />
           </Col>
           <Col lg={6}>
-            <p className="textobranco bgcolor">
-              Lorem Ipsum é simplesmente uma simulação de texto da indústria
-              tipográfica e de impressos, e vem sendo utilizado desde o século
-              XVI, quando um impressor desconhecido pegou uma bandeja de tipos e
-              os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum
-              sobreviveu não só a cinco séculos, como também ao salto para a
-              editoração eletrônica, permanecendo essencialmente inalterado. Se
-              popularizou na década de 60, quando a Letraset lançou decalques
-              contendo passagens de Lorem Ipsum, e mais recentemente quando
-              passou a ser integrado a softwares de editoração eletrônica como
-              Aldus PageMaker.
+            <h2 className="textobranco">
+              I’m <span className="textoamarelo">Patriky</span>
+            </h2>
+            <p className="textobranco">
+              Front End Developer who focuses on writing clean, elegant and
+              efficient code.
             </p>
           </Col>
         </Row>
+        <Row className="margens mt-5">
+          <h1 className="textobranco"> My Styles</h1>{" "}
+        </Row>
 
-        <Row className="mt-5">
-          <Col lg={6} className="bgcolor">
-          <h1 className="textobranco"> Titulo </h1>
-          <p className="textored">
-            Lorem Ipsum é simplesmente uma simulação de texto da indústria
-            tipográfica e de impressos, e vem sendo utilizado desde o século
-            XVI, quando um impressor desconhecido pegou uma bandeja de tipos e
-            os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum
-            sobreviveu não só a cinco séculos, como também ao salto para a
-            editoração eletrônica, permanecendo essencialmente inalterado. Se
-            popularizou na década de 60, quando a Letraset lançou decalques
-            contendo passagens de Lorem Ipsum, e mais recentemente quando passou
-            a ser integrado a softwares de editoração eletrônica como Aldus
-            PageMaker.
-            </p>
-          </Col>
+        <Row className="margens">
           <Col lg={6}>
+            <Row className="margens">
+              <Col lg={2} className="sizebox">
+                <p className="nomecurso"> html</p>
+              </Col>
+              <Col lg={9}>
+                <div className="container1">
+                  <div className="progress-bar1">
+                    {" "}
+                    <span className="txtbranco">70%</span>
+                  </div>
+                </div>{" "}
+              </Col>
+            </Row>
+
+            <Row className="margens">
+              <Col lg={2} className="sizebox">
+                <p className="nomecurso"> CSS</p>
+              </Col>
+              <Col lg={9}>
+                <div className="container1">
+                  <div className="progress-bar1">
+                    {" "}
+                    <span className="txtbranco">70%</span>
+                  </div>
+                </div>{" "}
+              </Col>
+            </Row>
+
+            <Row className="margens">
+              <Col lg={2} className="sizebox">
+                <p className="nomecurso"> JAVA SCRIPT</p>
+              </Col>
+              <Col lg={9}>
+                <div className="container2">
+                  <div className="progress-bar2">
+                    <span className="txtbranco">50%</span>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+
+            <Row className="margens">
+              <Col lg={2} className="sizebox">
+                <p className="nomecurso"> REACT</p>
+              </Col>
+              <Col lg={9}>
+                <div className="container3">
+                  <div className="progress-bar3">
+                    {" "}
+                    <span className="txtbranco">40%</span>{" "}
+                  </div>
+                </div>
+              </Col>
+            </Row>
+            <Row className="margens">
+              <Col lg={2} className="sizebox">
+                <p className="nomecurso"> FIGMA</p>
+              </Col>
+              <Col lg={9}>
+                <div className="container4">
+                  <div className="progress-bar4">
+                    {" "}
+                    <span className="txtbranco">60%</span>{" "}
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </Col>
+
+          <Col lg={6} className="imagecontainer">
             <img className="imagemgrid1" src={Imggrid1} alt="..." />
+          </Col>
+        </Row>
+        <Row className="margens">
+          <Col lg={6}>
+            <img className="imagemgrid2" src={Imggrid2} alt="..." />
+          </Col>
+          <Col lg={6} className="centralized mt-5">
+            <Carrossel />
           </Col>
         </Row>
 
         <Row className="imagemBG">
-          <Col  className="textstyle">
-          Lorem Ipsum é simplesmente uma simulação de texto da indústria
-            tipográfica e de impressos, e vem sendo utilizado desde o século
-            XVI, quando um impressor desconhecido pegou uma bandeja de tipos e
-            os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum
-            sobreviveu não só a cinco séculos, como também ao salto para a
-            editoração eletrônica, permanecendo essencialmente inalterado.
+          <Col className="textstyle">
+            <p className="title">
+              Graduado em Redes de computadores pela Universidade Paulista UNIP,
+              Sousa-PB
+            </p>
+            <p className="texto">
+              Suporte aos sistemas de computadores de uma organização, incluindo
+              redes locais (LANs), redes de longa distância (WANs), segmentos de
+              rede, intranets e outros sistemas de comunicação de dados.
+            </p>
+            <p className="title">
+              IFPB - Instituto Federal de Ciências e Técnologia da Paraíba.
+            </p>
+            <p className="texto">
+              Ensino médio Integrado ao Técnico em Informática Voltada para
+              programação web e manutenção e suporte de equipamentos de
+              informática.
+            </p>
           </Col>
         </Row>
       </Container>

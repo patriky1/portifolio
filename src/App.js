@@ -1,23 +1,27 @@
-import React from 'react';
+import React from "react";
 
-import './App.css';
-import Menu from './componentes/navbar/navbar';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Grid1 from './componentes/grid/grid1';
-import Footer from './componentes/footer/footer';
+import "./App.css";
+import Menu from "./componentes/navbar/navbar";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Grid1 from "./componentes/grid/grid1";
+import Footer from "./componentes/footer/footer";
+
 
 function App() {
   return (
-    <div className='colorbackground'>
-    <section id="top">
-    <Menu />
-    <Grid1/>
-    <Footer/>
+    <>
+      <section id="home">
+        <Menu />
+      </section>
+      <section id="portfolio">
+        <Grid1 />
+        
 
-    </section>
-
-
-    </div>
+      </section>
+      <section id="footer">
+        <Footer />
+      </section>
+    </>
   );
 }
 
