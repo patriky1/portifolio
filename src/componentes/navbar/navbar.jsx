@@ -1,5 +1,4 @@
 import React from "react";
-import { Navbar, Nav, NavbarBrand } from "react-bootstrap";
 import Logo from "../imagens/Suddath.png";
 import "./navbar.css";
 import { Row, Col, Container } from "react-bootstrap";
