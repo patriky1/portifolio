@@ -6,12 +6,12 @@ import Imggrid2 from "./imagem_grid/frame2.png";
 import "./grid.css";
 import Carrossel from "../carrossel/carrossel";
 
-function Grid1() {
+export function GridPerfil() {
   return (
     <>
       <Container fluid className="mt-5 ">
         <Row className="margens">
-          <Col lg={6} className="grid" >
+          <Col lg={6} className="grid">
             <img className="imagemgrid" src={Imggrid} alt="..." />
           </Col>
           <Col lg={6}>
@@ -24,8 +24,35 @@ function Grid1() {
             </p>
           </Col>
         </Row>
-        <Row className="margens mt-5">
-          <h1 className="textobranco"> My Styles</h1>{" "}
+      </Container>
+    </>
+  );
+}
+
+export function GridCarousel() {
+  return (
+    <>
+      <Container fluid className="mt-5 ">
+        <Row className="margens">
+          <h2 className="textstyle"> My Projects</h2>
+          <Col lg={6}>
+            <img className="imagemgrid2" src={Imggrid2} alt="..." />
+          </Col>
+          <Col lg={6} className="centralized mt-5">
+            <Carrossel />
+          </Col>
+        </Row>
+      </Container>
+    </>
+  );
+}
+
+export function GridSkills() {
+  return (
+    <>
+      <Container fluid className="mt-5 ">
+        <Row className="margens">
+          <h1 className="textobranco"> My Skills</h1>{" "}
         </Row>
 
         <Row className="margens">
@@ -98,20 +125,19 @@ function Grid1() {
               </Col>
             </Row>
           </Col>
-
           <Col lg={6} className="imagecontainer">
             <img className="imagemgrid1" src={Imggrid1} alt="..." />
           </Col>
         </Row>
-        <Row className="margens">
-          <Col lg={6}>
-            <img className="imagemgrid2" src={Imggrid2} alt="..." />
-          </Col>
-          <Col lg={6} className="centralized mt-5">
-            <Carrossel />
-          </Col>
-        </Row>
+      </Container>
+    </>
+  );
+}
 
+export function GridEducation() {
+  return (
+    <>
+      <Container fluid className="mt-5 ">
         <Row className="imagemBG">
           <Col className="textstyle">
             <p className="title">
@@ -137,5 +163,3 @@ function Grid1() {
     </>
   );
 }
-
-export default Grid1;
