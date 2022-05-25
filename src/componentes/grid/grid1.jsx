@@ -9,14 +9,14 @@ import Carrossel from "../carrossel/carrossel";
 export function GridPerfil() {
   return (
     <>
-      <Container fluid className="mt-5 ">
-        <Row className="margens">
+      <Container fluid className="margemgeral">
+        <Row>
           <Col lg={6} className="grid">
             <img className="imagemgrid" src={Imggrid} alt="..." />
           </Col>
           <Col lg={6}>
             <h2 className="textobranco">
-              I’m <span className="textoamarelo">Patriky</span>
+              I'm <span className="textoamarelo">Patriky</span>
             </h2>
             <p className="textobranco">
               Front End Developer who focuses <br></br>on writing clean, elegant
