@@ -51,7 +51,7 @@
 }
 
 .title {
-  font-size: 36px;
+  font-size: 30px;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -60,13 +60,12 @@
 }
 
 .texto {
-  font-size: 24px;
+  font-size: 20px;
   text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 .textstyle {
