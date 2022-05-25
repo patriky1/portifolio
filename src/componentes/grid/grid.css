@@ -33,10 +33,20 @@
 }
 .imagemBG {
   background-image: url("./imagem_grid/background.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  
+
 
   text-align: center;
   margin-top: 5%;
   background-size: cover;
+}
+
+.bgsize{
+  width: auto;
+  height: 800px;
 }
 
 .title {

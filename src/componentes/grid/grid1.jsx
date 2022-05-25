@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Imggrid from "./imagem_grid/perfil.png";
 import Imggrid1 from "./imagem_grid/Frame.png";
-// import Imggrid2 from "./imagem_grid/frame2.png";
+
 import "./grid.css";
 import Carrossel from "../carrossel/carrossel";
 
@@ -140,7 +140,7 @@ export function GridEducation() {
   return (
     <>
       <Container fluid className="mt-5 ">
-        <Row className="imagemBG">
+        <Row className="imagemBG bgsize">
           <Col className="textstyle">
             <p className="title">
               Graduado em Redes de computadores pela Universidade Paulista UNIP,
