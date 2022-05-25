@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { GridCarousel, GridEducation, GridPerfil, GridSkills } from "./componentes/grid/grid1";
 import Footer from "./componentes/footer/footer";
 import ScrollToTop from "./componentes/scroll/scrollToTop";
-import CarouNuka from "./componentes/carousel2/carousel2";
+
 
 function App() {
   return (

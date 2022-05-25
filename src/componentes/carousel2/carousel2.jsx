@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "nuka-carousel";
 import Img1 from "../carousel2/imagens-carousel/imc1.png";
 import Img2 from "../carousel2/imagens-carousel/imc2.png";
-import Img3 from "../carousel2/imagens-carousel/imc3.png";
+
 
 import "./carousel2.css";
 
