@@ -222,3 +222,10 @@
 
   
 }
+.carousel2{
+  display:contents;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}

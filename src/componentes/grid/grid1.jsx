@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Imggrid from "./imagem_grid/perfil.png";
-import Imggrid1 from "./imagem_grid/Frame.png";
+// import Imggrid1 from "./imagem_grid/Frame.png";
 
 import "./grid.css";
 import Carrossel from "../carrossel/carrossel";
+import CarouNuka from "../carousel2/carousel2";
 
 export function GridPerfil() {
   return (
@@ -127,14 +128,17 @@ export function GridSkills() {
               </Col>
             </Row>
           </Col>
-          <Col lg={6} className="imagecontainer">
-            <img className="imagemgrid1" src={Imggrid1} alt="..." />
-          </Col>
+          <Container  className="carousel2">
+            <Col lg={6}>
+              <CarouNuka />
+            </Col>
+            </Container>
         </Row>
       </Container>
     </>
   );
 }
+
 
 export function GridEducation() {
   return (
