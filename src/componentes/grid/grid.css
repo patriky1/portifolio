@@ -51,17 +51,23 @@
 }
 
 .title {
-  font-size: 200%;
-  text-align: left;
-  
-}
-
-.texto {
   font-size: 150%;
   text-align: left;
   
 }
 
+.texto {
+  font-size: 100%;
+  text-align: left;
+  
+}
+@media screen and (max-width: 680px) 
+  .title .texto{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 .textstyle {
   margin: 5%;
   color: white;
