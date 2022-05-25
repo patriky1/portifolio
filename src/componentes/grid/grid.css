@@ -51,21 +51,15 @@
 }
 
 .title {
-  font-size: 30px;
+  font-size: 200%;
   text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .texto {
-  font-size: 20px;
+  font-size: 150%;
   text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .textstyle {
