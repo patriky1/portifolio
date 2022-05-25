@@ -61,13 +61,14 @@
   text-align: left;
   
 }
-@media screen and (max-width: 680px) 
+@media screen and (max-width: 680px) {
   .title .texto{ 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+  } }
+
 .textstyle {
   margin: 5%;
   color: white;
