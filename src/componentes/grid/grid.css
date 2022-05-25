@@ -11,8 +11,6 @@
   display: flex;
   margin: auto;
 }
-
-
 .margens {
   margin-right: 2%;
   margin-left: 2%;
@@ -49,17 +47,13 @@
   width: auto;
   height: 800px;
 }
-
 .title {
   font-size: 150%;
-  text-align: left;
-  
+  text-align: left; 
 }
-
 .texto {
   font-size: 100%;
   text-align: left;
-  
 }
 @media screen and (max-width: 680px) {
   .title .texto{ 
@@ -68,7 +62,6 @@
     justify-content: center;
     align-items: center;
   } }
-
 .textstyle {
   margin: 5%;
   color: white;

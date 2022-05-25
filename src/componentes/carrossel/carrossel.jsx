@@ -20,10 +20,18 @@ function Carrossel() {
   return (
     <>
     <Carousel 
-    wrapAround={true}
-    autoplay={true}
+    
     cellAlign="center"
     slidesToShow={4}
+
+    autoplay = {true}
+    autoplayInterval = {2000}
+    wrapAround = {true}
+    withoutControls = {true}
+    transitionMode = {"fade"}			
+    pauseOnHover ={false} 
+    swiping = {false}//Enable touch swipe/dragging
+    //speed = {2000}
   >
     <img src={Imagem1} height="400px" width="200px" alt="...."/>
     <img src={Imagem2} height="400px" width="200px" alt="...." />
