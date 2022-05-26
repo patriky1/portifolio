@@ -128,11 +128,10 @@ export function GridSkills() {
               </Col>
             </Row>
           </Col>
-          <Container  className="carousel2" >
-            <Col lg={6}>
+          
+            <Col lg={5} >
               <CarouNuka />
             </Col>
-            </Container>
         </Row>
       </Container>
     </>

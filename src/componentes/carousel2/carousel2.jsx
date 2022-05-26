@@ -26,8 +26,8 @@ export default function CarouNuka() {
       swiping={false} //Enable touch swipe/dragging
       //speed = {2000}
     >
-      <img src={Img1} className="CarouselImg" height="300px" width="500px" alt="..." />
-      <img src={Img2} className="CarouselImg" height="300px" width="500px" alt="..." />
+      <img src={Img1} className="CarouselImg" height="100%" width="100%" alt="..." />
+      <img src={Img2} className="CarouselImg" height="100%" width="100%" alt="..." />
       {/* <img src={Img3} className="CarouselImg" height="400px" width="auto" alt="..." /> */}
     </Carousel>
   );
