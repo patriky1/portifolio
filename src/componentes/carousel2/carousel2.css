@@ -1,5 +1,5 @@
 .CarouselImg{
-margin:0px;
+
 padding: 0px;
 
 
@@ -9,10 +9,9 @@ border:none
  }
  @media screen and (max-width: 680px) {
     .carouselwhidth{ 
-      margin-bottom: 4%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+        width:100%;
     }
     }
+.carouselwhidth{
+     overflow-x: hidden;
+}

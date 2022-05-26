@@ -23,7 +23,6 @@ function Carrossel() {
     
     cellAlign="center"
     slidesToShow={4}
-
     autoplay = {true}
     autoplayInterval = {2000}
     wrapAround = {true}
