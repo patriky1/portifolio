@@ -8,7 +8,7 @@ import "./carousel2.css";
 
 export default function CarouNuka() {
   return (
-    <Carousel
+    <Carousel className="carouselwhidth"
 
     cellAlign="center"
     slidesToShow={1}
