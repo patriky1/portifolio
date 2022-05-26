@@ -7,8 +7,4 @@ object-fit: fill;
 border:none
 
  }
- @media screen and (max-width: 680px) {
-    .carouselwhidth{ 
-        width:100%;
-    }
-    }
+
