@@ -4,8 +4,8 @@ import './scrollToTop.css'
 
 const arrow = (
     <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M12.5863 19.6973V5.69727" stroke="#000948" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5.5863 12.6973L12.5863 5.69727L19.5863 12.6973" stroke="#000948" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12.5863 19.6973V5.69727" stroke="#000948" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M5.5863 12.6973L12.5863 5.69727L19.5863 12.6973" stroke="#000948" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 
 )
