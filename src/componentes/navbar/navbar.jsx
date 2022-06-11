@@ -10,7 +10,7 @@ function Menu() {
         <Row className="colapse" lg={6}>
           <Col className="itens" lg={5}>
             <a className="item" href="#portfolio">
-              Portifolio
+              Portifólio
             </a>
             <a className="item" href="#education">
               Education
